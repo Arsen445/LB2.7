@@ -14,4 +14,5 @@ if __name__ == "__main__":
     bn = u.difference(b)
     cn = u.difference(c)
     y = (a.difference(d)).union(cn.difference(bn))
-    print(f"y = {y}")
+    print(f"y = {y}")
+
