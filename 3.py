@@ -9,7 +9,7 @@ if __name__ == "__main__":
     C = {"j", "k"}
     D = {"b", "d", "g", "k", "t", "u", "y", "z"}
    
-    X = (A.difference(B)).intersection(C.difference(D))
+    X = (A.difference(B)) and (C.difference(D))
 
     nC = u.difference(C)
     nB = u.difference(B)
